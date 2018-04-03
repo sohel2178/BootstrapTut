@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="text-center page-header">
+        <h2>Collapse Example</h2>
+    </div>
+
+    <button class="btn btn-primary" data-toggle="collapse" data-target="#demo">Button</button>
+
+    <div id="demo" class="collapse">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci a quidem alias dolores, quasi eum, distinctio nemo mollitia deleniti illum saepe unde cum reiciendis libero eius officiis? Nostrum dicta veniam aperiam ratione atque impedit repellendus optio labore officiis fugiat ad maxime a sapiente, aliquid nihil qui eligendi quidem quod sequi.
+    </div>
+
+   <br><br>
+
+   <h2>For Link</h2>
+
+   <a href="#semo" data-toggle="collapse">Collapsible</a>
+
+   <div id="semo" class="collapse">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quos quibusdam doloribus eos iste culpa nostrum ipsa perspiciatis sapiente a minus reiciendis est soluta, nemo eveniet, corporis cupiditate! Laboriosam, dolorum!
+   </div>
+
+   <br><br><br>
+
+   <h2>Accordian Example</h2>
+
+   <div id="accordian">
+       <div class="card">
+            <div class="card-header">
+                <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                    Collapsible Group Item #1
+                </a>
+            </div>
+            <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                <div class="card-body">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt repudiandae excepturi aut sed sapiente obcaecati.
+                </div>
+            </div>
+
+            <div class="card-header">
+                <a class="card-link" data-toggle="collapse" href="#collapseTwo">
+                    Collapsible Group Item #1
+                </a>
+            </div>
+            <div id="collapseTwo" class="collapse show" data-parent="#accordion">
+                <div class="card-body">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt repudiandae excepturi aut sed sapiente obcaecati.
+                </div>
+            </div>
+       </div>
+   </div>
+
+</div>
+
+</body>
+</html>
