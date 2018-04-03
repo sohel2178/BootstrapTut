@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h1>My Table Example</h1>
+
+  <!-- .table >>> Changes its appearance as a Table
+  .table-striped Make table Striped
+    to Bordered Table use table-bordered class
+    to hover row use table-hover class
+    The .table-condensed class makes a table more compact by cutting cell padding in half -->
+
+  <table class="table table-striped table-bordered table-hover table-condensed">
+      <thead>
+          <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Email</th>
+          </tr>
+
+      </thead>
+
+      <tbody>
+
+        <tr>
+            <td>Sohel</td>
+            <td>Ahmed</td>
+            <td>sohel.ahmed2178@gmail.com</td>
+        </tr>
+
+        <tr>
+            <td>Shakil</td>
+            <td>Mahmood</td>
+            <td>shakil.mahmood@gmail.com</td>
+        </tr>
+
+        <tr>
+            <td>Rashin</td>
+            <td>Khan</td>
+            <td>rashin.khan@gmail.com</td>
+        </tr>
+
+      </tbody>
+  </table>
+
+  <!-- Contextual Classes of Table -->
+
+  <div class="table-responsive">
+
+        <table class="table table-striped table-bordered table-hover table-condensed">
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email</th>
+                    </tr>
+          
+                </thead>
+          
+                <tbody>
+          
+                  <tr>
+                      <td>Default</td>
+                      <td>Ahmed</td>
+                      <td>sohel.ahmed2178@gmail.com</td>
+                  </tr>
+          
+                  <tr class="success">
+                      <td>Success</td>
+                      <td>Mahmood</td>
+                      <td>shakil.mahmood@gmail.com</td>
+                  </tr>
+          
+                  <tr class="danger">
+                      <td>Danger</td>
+                      <td>Khan</td>
+                      <td>rashin.khan@gmail.com</td>
+                  </tr>
+        
+                    <tr class="danger">
+                        <td>Danger</td>
+                        <td>Khan</td>
+                        <td>rashin.khan@gmail.com</td>
+                    </tr>
+        
+                    <tr class="warning">
+                        <td>Warning</td>
+                        <td>Khan</td>
+                        <td>rashin.khan@gmail.com</td>
+                    </tr>
+        
+                    <tr class="active">
+                        <td>Active</td>
+                        <td>Khan</td>
+                        <td>rashin.khan@gmail.com</td>
+                    </tr>
+          
+                </tbody>
+            </table>
+
+  </div>
+  
+
+  
+</div>
+
+</body>
+</html>
